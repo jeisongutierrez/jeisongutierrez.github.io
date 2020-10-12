@@ -30,9 +30,17 @@ twitter_username: jeisong
 github_username:  jeisongutierrez
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - liquid
+# Google Services  
+google_analytics: UA-180441508-1
+
+sass:
+  sass_dir: _sass
+  style:    compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
